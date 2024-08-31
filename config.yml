@@ -1,0 +1,5 @@
+main:
+  components_repository: "https://github.com/EdgarDmonkey/portfolio"
+  streamlit: "https://streamlit.io/"
+  copyright: "Edgar Adrian Castro Romero 2024"
+  project_name: Portfolio
