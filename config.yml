@@ -3,3 +3,12 @@ main:
   streamlit: "https://streamlit.io/"
   copyright: "Edgar Adrian Castro Romero 2024"
   project_name: Portfolio
+
+styling:
+  pages: ["About Me","Portfolio"]
+
+docs:
+  cv: "docs/Resume_DA.pdf"
+
+images:
+  picprofile: "images/pic_portfolio.png"
