@@ -24,7 +24,7 @@ class SideBar:
             st.download_button(
                 label= 'resume PDF',
                 data= cv,
-                file_name= 'EdgarCastro.PDF',
+                file_name= 'CV_EdgarCastro.PDF',
                 mime='application/octer-stream',
                 use_container_width=True
             )

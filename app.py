@@ -2,7 +2,7 @@ import streamlit as st
 
 from src.settings import Settings
 from streamlit_option_menu import option_menu
-from side_bar import SideBar
+from src.side_bar import SideBar
 
 
 settings = Settings()
@@ -12,14 +12,15 @@ st.set_page_config(
     layout= 'wide', initial_sidebar_state= 'expanded'
  )
 
+
 # Sidebar
 with st.sidebar:
     
     # Instance Sidebar
     sb = SideBar()
     
-    st.title('Edgar Developer')
-    
+    st.title('EDGAR CASTRO')
+    sb.profile_picture()
     #Button download
     
     sb.download_cv()
@@ -32,7 +33,7 @@ with st.sidebar:
         default_index= 0
     )
     
-    sb.profile_picture()
+    
     
 # Selected page
 
