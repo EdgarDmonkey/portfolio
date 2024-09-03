@@ -13,7 +13,7 @@ class SideBar:
         self.profile = Image.open(settings.config['images']['picprofile'])
         
     def profile_picture(self):
-        st.image(self.profile) 
+        st.image(self.profile, width=500) 
         
     def download_cv(self):
         with open(self.cv, 'rb') as file:

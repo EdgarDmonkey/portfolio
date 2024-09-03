@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 from src.settings import Settings
 from streamlit_option_menu import option_menu
@@ -19,8 +20,8 @@ with st.sidebar:
     # Instance Sidebar
     sb = SideBar()
     
-    st.title('EDGAR CASTRO')
-    sb.profile_picture()
+    st.title('Code as a service')
+    
     #Button download
     
     sb.download_cv()
@@ -39,8 +40,23 @@ with st.sidebar:
 
 # About me
 if selected == settings.config['styling']['pages'][0]:
-    st.title(':wave: About Me')
-
+    col1, col2 = st.columns([.60, .40], gap="small",vertical_alignment="top",)
+    with col1:
+        sb.profile_picture()
+        st.title('Edgar Castro') 
+        st.write(
+            """
+            - 6 años de experiencia en analisis de datos
+            - 
+            """
+        )
+    with col2:
+        st.title('Edgar Castro')
+        st.write(
+            """
+                I am a software developer, with experience in data analytics,
+            """
+            )
 # Portfolio    
 elif selected == settings.config['styling']['pages'][1]:
     st.title(':book: Portfolio')
