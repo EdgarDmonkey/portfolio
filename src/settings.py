@@ -1,6 +1,8 @@
 import os
 import yaml
+import streamlit as st
 from streamlit import markdown
+
 
 class Settings:
     def __init__(self) -> None:
@@ -35,5 +37,6 @@ class Settings:
             </br>
         </p>
         '''
+        
         # Render footer str
         markdown(content_str, unsafe_allow_html=True)

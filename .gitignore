@@ -1,1 +1,6 @@
 venv/
+
+# Media
+*.mp4
+*.jpg
+*.pdf
