@@ -92,6 +92,8 @@ elif view_project == 'Dashboards':
     st.title('Dashboard development')
 elif view_project == 'Apps':
     st.title('Application development')
+    video_url_app = 'images\SEFARGO.mp4'
+    st.video(video_url_app)
 elif view_project == 'VBA':
     st.title('A little bit of VBA')
     video_url = 'images\Inicio.mp4'
