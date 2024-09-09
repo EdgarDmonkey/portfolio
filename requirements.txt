@@ -5,3 +5,4 @@ pyyaml
 Pillow
 streamlit
 streamlit_option_menu
+plotly
