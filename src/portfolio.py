@@ -94,12 +94,12 @@ elif view_project == 'Dashboards':
     st.video(video_url_bi)
 elif view_project == 'Apps':
     st.title('Application development')
-    video_url_app = 'https://youtu.be/2ZdVVUmsLPA'
-    st.video(video_url_app)
+    # video_url_app = 'https://youtu.be/2ZdVVUmsLPA'
+    # st.video(video_url_app)
 elif view_project == 'VBA':
     st.title('A little bit of VBA')
-    video_url = 'https://youtu.be/M5_dguu0Qdo'
-    st.video(video_url)
+    # video_url = 'https://youtu.be/M5_dguu0Qdo'
+    # st.video(video_url)
 elif view_project == 'Others':
     st.title('Development')
 
