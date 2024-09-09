@@ -90,7 +90,7 @@ if view_project == 'Inventory':
         st.plotly_chart(fig) 
 elif view_project == 'Dashboards':
     st.title('Dashboard development')
-    video_url_bi = 'images\BI.mp4'
+    video_url_bi = 'https://youtu.be/2ZdVVUmsLPA'
     st.video(video_url_bi)
 elif view_project == 'Apps':
     st.title('Application development')
