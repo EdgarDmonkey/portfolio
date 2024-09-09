@@ -7,7 +7,7 @@ from src.utils import calcular_ila
 
 # -----Select
 st.header("Select a project")
-view_project =  st.selectbox("Project", ["Inventory", "Dashboards", "Apps", "VBA", "Flows"])
+view_project =  st.selectbox("Project", ["Inventory", "Dashboards", "Apps", "VBA", "Others"])
 
 #-------------------------Projects-----------------------------
 
@@ -90,16 +90,20 @@ if view_project == 'Inventory':
         st.plotly_chart(fig) 
 elif view_project == 'Dashboards':
     st.title('Dashboard development')
+    video_url_bi = 'images\BI.mp4'
+    st.video(video_url_bi)
 elif view_project == 'Apps':
     st.title('Application development')
-    video_url_app = 'images\SEFARGO.mp4'
+    video_url_app = 'images\powerapps.mp4'
     st.video(video_url_app)
 elif view_project == 'VBA':
     st.title('A little bit of VBA')
     video_url = 'images\Inicio.mp4'
     st.video(video_url)
-elif view_project == 'Flows':
-    st.title('Flows and data in power platform')
+elif view_project == 'Others':
+    st.title('Development')
+
+
 
 
 
