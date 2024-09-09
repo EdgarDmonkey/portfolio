@@ -33,7 +33,6 @@ pg = st.navigation(
 # side bar
 st.sidebar.subheader("Code as a service")
 st.sidebar.text("Made: Edgar Castro 2024")
-st.logo(image='.\images\logo_streamlit.svg')
 
 if __name__=='__main__':
     pg.run()
