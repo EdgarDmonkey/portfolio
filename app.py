@@ -19,55 +19,7 @@ page_1 = st.Page(
      icon=None    
  )
 
-
-
-
-# settings = Settings()
-
-# st.set_page_config(
-#     page_title= 'Edgar Adrian Castro Romero',
-#     layout= 'wide', initial_sidebar_state= 'expanded'
-#  )
-
-
-
-# # Sidebar
-# with st.sidebar:
-  
-    
-    
-    
-#     # Instance Sidebar
-#     sb = SideBar()
-    
-#     st.title('Code as a service')
-    
-#     #Button download
-    
-#     sb.download_cv()
-    
-    
-#     # Menu Nav
-#     selected = option_menu(
-#         menu_title= None,
-#         options= settings.config['styling']['pages'],
-#         default_index= 0
-#     )
-    
-#     settings.site_footer()
-    
-    
-# # Selected page
-
-# # About me
-# if selected == settings.config['styling']['pages'][0]:
-
-         
-# # Portfolio    
-# elif selected == settings.config['styling']['pages'][1]:
-#     st.title(':book: Portfolio')
-
-#--Add each project here below and index the numbers page in the congi.yml    
+ 
 
 
 pg = st.navigation(
