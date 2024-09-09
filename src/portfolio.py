@@ -98,7 +98,7 @@ elif view_project == 'Apps':
     st.video(video_url_app)
 elif view_project == 'VBA':
     st.title('A little bit of VBA')
-    video_url = 'images\Inicio.mp4'
+    video_url = './images/Inicio.mp4'
     st.video(video_url)
 elif view_project == 'Others':
     st.title('Development')
